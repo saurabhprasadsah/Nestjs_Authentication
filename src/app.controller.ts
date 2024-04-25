@@ -1,7 +1,7 @@
 import { Controller, Get, UseGuards, Request } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 
-
+//routing
 @Controller("app")
 export class AppController {
   constructor() {}
